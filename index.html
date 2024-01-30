@@ -17,21 +17,21 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@800&family=Poppins:wght@400;600&display=swap"
-    rel="stylesheet">
+        rel="stylesheet">
 
     <style>
-        .font-ebg{
+        .font-ebg {
             font-family: 'EB Garamond', serif;
         }
 
-        .font-pop{
+        .font-pop {
             font-family: 'Poppins', sans-serif;
         }
     </style>
 
 </head>
 
-<body class="font-pop">
+<body class="font-pop mx-auto md:mx-10 lg:mx-60 my-10">
 
 
 
@@ -39,8 +39,68 @@
     <header>
 
         <!-- nav bar started -->
+        <nav class="mb-12">
+            <div class="navbar bg-base-100 justify-evenly">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                            <li><a>Home</a></li>
+                            <li><a>Service</a></li>
+                            <li><a>Cases</a></li>
+                            <li><a>Blog</a></li>
+                            <li><a>Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <a class="btn btn-ghost text-xl">
+                        <img src="images/logo2.png" alt="">
+                    </a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li><a>Home
+                            <i class="fa-solid fa-chevron-right fa-fade"></i>
+                        </a></li>
+                        <li><a>Service
+                            <i class="fa-solid fa-chevron-right fa-fade"></i>
+                        </a></li>
+                        <li><a>Cases
+                            <i class="fa-solid fa-chevron-right fa-fade"></i>
+                        </a></li>
+                        <li><a>Blog
+                            <i class="fa-solid fa-chevron-right fa-fade"></i>
+                        </a></li>
+                        <li><a>Contact Us
+                            <i class="fa-solid fa-chevron-right fa-fade"></i>
+                        </a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end">
+                    <a class="btn bg-[#B68C5A] text-white border-none">Free Consultation</a>
+                </div>
+            </div>
+
+        </nav>
 
         <!-- banner started -->
+
+        <div class="hero min-h-screen" style="background-image: url(images/banner.png);">
+            <div class="hero-overlay bg-opacity-60"></div>
+            <div class="hero-content text-center text-neutral-content">
+              <div class="max-w-md">
+                <h1 class="mb-5 text-5xl font-bold">Hello there</h1>
+                <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                <button class="btn bg-[#B68C5A] text-white border-none">Search</button>
+              </div>
+            </div>
+          </div>
 
     </header>
 
@@ -59,7 +119,7 @@
         <!-- contact -->
 
     </main>
-    
+
 
 
 
